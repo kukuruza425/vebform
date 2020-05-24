@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewpost" content="width=device-width, initial-scale=1">
+<title></title>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;500&display=swap" rel="stylesheet">
+<style>
+	* {
+		box-sizing: border-box;
+	}
+	html {
+		font-size: 16px;
+	}
+	body {
+		margin: 0;
+		font-family: 'Roboto', sana-serif;
+		background-color: #f2f2f2;
+	}
+	.form-container {
+		background-color: #fff;
+		max-width: 450px;
+		width: 95%;
+		margin: auto;
+		padding: 40px;
+	}
+	#form {
+
+	}
+	input {
+		display: block;
+		width: 100%;
+		margin: 0.5rem 0;
+		padding: 0.4rem 0;
+		outline: none;
+		font-size: 1rem;
+	}
+</style>
+</head>
+<body>
+<div class="form-container">
+	<h3 class="form-heading">Форма</h3>
+	<form id="form" action="https://getsimpleform.com/messages?form_api_token=f32406860fa8b392feab16516c384a65" method="post">
+		<input id="name" name="name" type="text" placeholder="Name">
+		<input id="email" name="_replyto" type="email" placeholder="E-mail">
+		<input  type="tel" name="phone" value="+7">
+		<input  type="number" name="возраст" value="0" min="0" max="18" step="1" placeholder="возраст">
+<input type="password" name="pwd" pattern=".{6,}"  placeholder="Мин.длина пароля должна быть от 6 символов">
+		<input id="submit" type="submit" value="Отправить">	
+
+	</form>
+</div>
+<!-- <form id="form" action="https://getsimpleform.com/messages?api_token=09c689ff68d01de04123141ec989df24" method="post"> -->
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+<script>
+</script>
+</html>
